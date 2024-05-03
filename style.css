@@ -1,5 +1,15 @@
+:root {
+  --blue: #535971;
+  --red: #FF5374;
+  --gray: #EFEFEF;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray);
 }
