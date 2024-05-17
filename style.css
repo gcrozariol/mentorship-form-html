@@ -50,3 +50,25 @@ header h1 {
 header span {
   font-size: 20px;
 }
+
+form {
+  background-color: var(--white);
+  padding: 64px;
+  margin-top: 58px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  color: var(--blue);
+  font-size: 24px;
+  font-family: 'Staatliches', sans-serif;
+
+  width: 100%;
+
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--gray);
+}
